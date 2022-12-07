@@ -25,3 +25,12 @@
 - Elaboración de columna de país de cada equipo aplicando la mayoría de partidos en determinado país como su país de procedencia
 
 <img src="https://github.com/vmcapilla/Proyecto-3_European_King_R/blob/807f4fe87aedf983a9aa8f4ea497dbf2f6c6cc36/imagenes/mas_partidos_rey.png" width="400"/>
+
+## Proyectos en SQL
+### [Proyecto 5: Alcala_FC_Stats](https://github.com/vmcapilla/Project-5_Alcala_FC_Stats)
+- Todo el análisis en MySQL
+- Unión de las diferentes bases de datos, elaboración del EER
+- Todo tipo de consultas de goleadores y consultas de segundo grado
+- Guardado en vistas de las consultas más típicas
+
+<img src="https://github.com/vmcapilla/Project-5_Alcala_FC_Stats/blob/main/EER_diagram_alcala.png" width="400"/>
