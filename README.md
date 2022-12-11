@@ -1,5 +1,30 @@
 # Portfolio de Victor
 
+## Proyectos en SQL
+### [Proyecto 5: Alcala_FC_Stats](https://github.com/vmcapilla/Project-5_Alcala_FC_Stats)
+- Todo el análisis en MySQL
+- Unión de las diferentes bases de datos, elaboración del EER
+- Todo tipo de consultas de goleadores y consultas de segundo grado
+- Guardado en vistas de las consultas más típicas
+
+<img src="https://github.com/vmcapilla/Project-5_Alcala_FC_Stats/blob/main/EER_diagram_alcala.png" width="400"/>
+
+### [Proyecto 6: Expected Goals](https://github.com/vmcapilla/Project-6_Expected_Goals)
+- Limpieza de datos en Excel y Análisis en BigQuery
+- Unión de dos subconsultas para realizar una tabla general con datos de local y visitante
+- Creación de tabla en BigQuery y guardado de consulta como nueva tabla para subconsultas
+- Consultas sobre goles esperados tanto a favor como en contra. También tabla resumen de los partidos con partidos jugados, ganados, empatados y perdidos.
+
+Output by Top 5 xGC_Ratio:
+```
+SELECT 
+  Team, GC, xGC, ROUND(GC/xGC, 2) AS xGC_Ratio
+FROM
+  `wc2018_all_games_stats` 
+ORDER BY
+  xGC_Ratio
+LIMIT 5
+```
 
 ## Proyectos en R
 ### [Proyecto 1: Comparador de comportamiento en viajes. Usuarios vs Suscriptores](https://github.com/vmcapilla/Proyecto-1_Divvy_Analysis_R)
@@ -25,12 +50,3 @@
 - Elaboración de columna de país de cada equipo aplicando la mayoría de partidos en determinado país como su país de procedencia
 
 <img src="https://github.com/vmcapilla/Proyecto-3_European_King_R/blob/807f4fe87aedf983a9aa8f4ea497dbf2f6c6cc36/imagenes/mas_partidos_rey.png" width="400"/>
-
-## Proyectos en SQL
-### [Proyecto 5: Alcala_FC_Stats](https://github.com/vmcapilla/Project-5_Alcala_FC_Stats)
-- Todo el análisis en MySQL
-- Unión de las diferentes bases de datos, elaboración del EER
-- Todo tipo de consultas de goleadores y consultas de segundo grado
-- Guardado en vistas de las consultas más típicas
-
-<img src="https://github.com/vmcapilla/Project-5_Alcala_FC_Stats/blob/main/EER_diagram_alcala.png" width="400"/>
