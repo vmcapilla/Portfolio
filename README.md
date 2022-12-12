@@ -50,3 +50,12 @@ LIMIT 5
 - Elaboración de columna de país de cada equipo aplicando la mayoría de partidos en determinado país como su país de procedencia
 
 <img src="https://github.com/vmcapilla/Proyecto-3_European_King_R/blob/807f4fe87aedf983a9aa8f4ea497dbf2f6c6cc36/imagenes/mas_partidos_rey.png" width="400"/>
+
+### [Proyecto 4: Winner Stays.European Football Analysis with Streaks and Countries](https://github.com/vmcapilla/Proyect-4_Winner_Stays)
+- Todo el análisis en R, paquetes principales: tidyverse, dplyr, tidyr, ggplot2, lubridate, forcats y viridis
+- Análisis en una base de datos, limpieza de datos y formateo de tipos para su correcto análisis
+- Elaboración de columna condicional autorepercutida para calcular campeón en cada partido y las rachas si el campeón no cambia
+- Elaboración de nuevas gráficas a modo de mapas con los datos obtenidos
+
+<img src="https://github.com/vmcapilla/Project-4_Winner_Stays/blob/main/imagenes/fig.06.png" width="400" height='300'/>
+
